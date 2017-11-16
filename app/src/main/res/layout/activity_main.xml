@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myplayground.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/MyPlayground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/ViewMyPlayground"
+            android:textSize="30sp"
+            android:paddingTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.027" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/editTextNameHint"
+            android:inputType="textPersonName"
+            android:paddingTop="10dp"
+            android:textColorHint="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textViewSd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/textViewSd"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonYes"
+                android:textColor="@android:color/holo_red_dark" />
+
+        </LinearLayout>
+
+
+        <Switch
+            android:id="@+id/switchOnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@android:drawable/sym_def_app_icon"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:text="@string/switchOnOff"
+            android:thumbTextPadding="5dp" />
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/textViewEnjoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/textViewEnjoy"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_green_light"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:numStars="5" />
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:headerBackground="@android:color/background_dark"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/textViewSeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/textViewSeek"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"
+            android:hapticFeedbackEnabled="false"
+            android:paddingTop="5dp"
+            android:progressDrawable="@android:drawable/btn_star_big_on"
+            android:scrollbarSize="@android:dimen/notification_large_icon_width" />
+
+        <TextView
+            android:id="@+id/textViewCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/textViewCheck"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox1"
+                android:textColor="@color/colorAccent" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox2"
+                android:textColor="@android:color/holo_green_light" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/textViewButton"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:text="@string/button1" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_purple"
+                android:text="@string/button2" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imageView"
+            android:paddingBottom="20dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10sp"
+            app:srcCompat="@drawable/androidify" />
+
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

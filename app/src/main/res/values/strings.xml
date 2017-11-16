@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Playground</string>
+    <string name="ViewMyPlayground">Welcome To My Playground</string>
+    <string name="radioButtonYes">Yes</string>
+    <string name="radioButtonHellYes">Hell Yes!</string>
+    <string name="textViewEnjoy">Are You Enjoying My App?</string>
+    <string name="editTextName">Enter Name</string>
+    <string name="textViewSd">Is San Diego Awesome?</string>
+    <string name="switchOnOff">On/Off</string>
+    <string name="emailHint">Someone@Somewhere.com</string>
+    <string name="phoneHint">(555) 555–5555</string>
+    <string name="editTextNameHint">Enter Name</string>
+    <string name="textViewSeek">What Do You Seek?</string>
+    <string name="textViewCheck">Do You Like Checking Things?</string>
+    <string name="checkBox1">Check Me!</string>
+    <string name="checkBox2">No, Check Me!</string>
+    <string name="textViewButton">Do You Like To Press Buttons?</string>
+    <string name="button1">Press Me!</string>
+    <string name="button2">No, Press Me!</string>
+    <string name="imageView">Androidify</string>
+</resources>
